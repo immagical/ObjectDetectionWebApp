@@ -1,0 +1,53 @@
+body {
+    background-repeat: no-repeat;
+    background-size: auto; 
+    text-align: center;
+    align-items: center;
+}
+#heading { 
+    color: white; 
+    text-shadow: navy 2px 2px;
+    font-size: 35px;
+    text-decoration: underline;
+    text-decoration-style:solid;
+    text-decoration-thickness:4px;
+    text-decoration-color: rgb(255, 102, 186);
+    font-variant: small-caps;
+    margin-left: 80px; 
+
+}
+#back {
+    padding: 8px; 
+    font-size: 18px;
+    color: white;
+    background-color: darkblue;
+    border: solid 3px white;
+    border-radius: 15px;
+    float: right; 
+    top: 0px; 
+    margin-right: 10px;
+}
+
+.information {
+    padding: 8px; 
+    color: white;
+    background-color: rgb(203, 54, 136);
+    border: solid 3px rgb(0, 191, 255);
+    border-radius: 15px;
+    width: fit-content;
+    margin-right: 55px; 
+    margin-left: 50px; 
+    font-size: 20px;
+}
+
+canvas {
+    margin-top: 10px; 
+    margin-right: 40px;
+    margin-left: 10px;
+    animation: border 4s infinite;
+}
+
+@keyframes border {
+    from{border: rgb(255, 102, 186) 15px ridge;} 
+    to{border:rgb(61, 61, 229) 15px ridge;}
+}

@@ -1,0 +1,28 @@
+body {
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
+}
+#heading { 
+    color: white; 
+    text-shadow: navy 2px 2px;
+    font-size: 35px;
+    text-decoration: underline;
+    text-decoration-style:solid;
+    text-decoration-thickness:4px;
+    text-decoration-color: rgb(255, 102, 186);
+
+}
+.buttons {
+    height: 50px;
+    width: 60%; 
+    font-size: 20px;
+    font-variant: small-caps;
+    background-color: white;
+    animation: border 4s infinite;
+    
+}
+@keyframes border {
+    from{border: rgb(255, 102, 186) 4px solid;} 
+    to{border:rgb(61, 61, 229) 4px solid;}
+}
