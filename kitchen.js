@@ -1,7 +1,7 @@
 modelStatus = " "
 objects = []; 
 function preload() {
-    kitchen = loadImage("kitchen2.jpeg"); 
+    kitchen = loadImage("kitchen3.jpeg"); 
 }
 function setup() {
     canvas = createCanvas(800, 600); 
